@@ -8,8 +8,7 @@ $(document).ready(function() {
  */
 function initializePage() {
 	$("#testjs").click(function(e) {
-		$('.jumbotron h1').text("Javascript has taken control");
-		$("#testjs").text("Please wait...");
+		$('.jumbotron h1').text("Javascript is connected");
 	});
 
 	// Add any additional listeners here
